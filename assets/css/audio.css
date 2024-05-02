@@ -1,0 +1,27 @@
+.music {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: var(--orange-yellow-crayola);
+    color: var(--onyx);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: var(--vegas-gold);
+}
+
+/* Style audio controls */
+audio {
+    display: none;
+    /* Hide default audio controls */
+}
