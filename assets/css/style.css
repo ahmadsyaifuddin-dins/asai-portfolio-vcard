@@ -645,6 +645,28 @@ main {
   scroll-snap-align: center;
 }
 
+/* Tampilan mobile */
+@media (max-width: 480px) {
+  .testimonials-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 0 -15px;
+    padding: 25px;
+    padding-bottom: 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 25px;
+  }
+
+  .testimonials-item {
+    min-width: 100%;
+    scroll-snap-align: start;
+  }
+}
 
 .testimonials-avatar-box {
   position: absolute;
