@@ -641,9 +641,10 @@ main {
 }
 
 .testimonials-item {
-  min-width: 100%;
+  /* Tidak lagi perlu min-width: 100% */
   scroll-snap-align: center;
 }
+
 
 .testimonials-avatar-box {
   position: absolute;
@@ -1595,10 +1596,17 @@ textarea.form-input::-webkit-resizer {
   }
 
   .testimonials-list {
-    gap: 30px;
-    margin: 0 -30px;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Mengatur dua kolom dengan lebar yang sama */
+    gap: 15px;
+    margin: 0;
+    padding: 25px;
     padding-bottom: 35px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
   }
 
   .content-card {
