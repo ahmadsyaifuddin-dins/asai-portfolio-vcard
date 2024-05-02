@@ -8,7 +8,7 @@ function togglePlay() {
     playButton.textContent = 'Pause';
   } else {
     audio.pause();
-    playButton.textContent = 'Play';
+    playButton.textContent = 'Play Music';
   }
 }
 
