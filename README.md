@@ -1,6 +1,6 @@
 # vCard - Personal portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/ahmadsyaifuddin-99/asai-portfolio-vcard)
 ![GitHub stars](https://img.shields.io/github/stars/ahmadsyaifuddin-99/asai-portfolio-vcard?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ahmadsyaifuddin-99/asai-portfolio-vcard?style=social)
 
