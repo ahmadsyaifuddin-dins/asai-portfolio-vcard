@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-## Installing vCard
+<!-- ## Installing vCard
 
 To install **vCard**, follow these steps:
 
@@ -32,7 +32,7 @@ Windows:
 
 ```bash
 git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+``` -->
 
 ## Contact
 
