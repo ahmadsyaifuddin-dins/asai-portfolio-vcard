@@ -7,7 +7,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: var(--orange-yellow-crayola);
     color: var(--onyx);
     border: none;
