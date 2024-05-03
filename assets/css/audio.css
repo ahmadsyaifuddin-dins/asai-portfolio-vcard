@@ -12,8 +12,8 @@
     color: var(--onyx);
     border: none;
     font-size: 16px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     cursor: pointer;
     transition: border-radius 0.5s;
     /* Animasi transisi untuk border-radius */

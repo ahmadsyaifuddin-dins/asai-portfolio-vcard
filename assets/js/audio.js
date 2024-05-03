@@ -22,10 +22,14 @@ function toggleBorderRadius() {
   // Toggle antara dua bentuk border radius
   if (playButton.classList.contains('playing')) {
     playButton.style.borderTopRightRadius = '15px';
+    playButton.style.borderTopLeftRadius = '0px';
     playButton.style.borderBottomLeftRadius = '15px';
+    playButton.style.borderBottomRightRadius = '0px';
   } else {
     playButton.style.borderTopLeftRadius = '15px';
+    playButton.style.borderTopRightRadius = '0px';
     playButton.style.borderBottomRightRadius = '15px';
+    playButton.style.borderBottomLeftRadius = '0px';
   }
   
   // Toggle class 'playing' untuk menandai status play/pause
