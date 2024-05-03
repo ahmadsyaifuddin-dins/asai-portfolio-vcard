@@ -11,14 +11,18 @@
     background-color: var(--orange-yellow-crayola);
     color: var(--onyx);
     border: none;
-    border-radius: 5px;
     font-size: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     cursor: pointer;
+    transition: border-radius 0.5s;
+    /* Animasi transisi untuk border-radius */
 }
 
 .play-button:hover {
     background-color: var(--vegas-gold);
 }
+
 
 /* Style audio controls */
 audio {

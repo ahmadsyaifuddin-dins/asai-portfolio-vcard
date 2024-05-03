@@ -14,3 +14,23 @@ function togglePlay() {
 
 // Event listener untuk memutar atau memberhentikan musik ketika tombol diklik
 playButton.addEventListener('click', togglePlay);
+
+
+
+// Fungsi untuk mengubah border radius saat tombol di-klik
+function toggleBorderRadius() {
+  // Toggle antara dua bentuk border radius
+  if (playButton.classList.contains('playing')) {
+    playButton.style.borderTopRightRadius = '15px';
+    playButton.style.borderBottomLeftRadius = '15px';
+  } else {
+    playButton.style.borderTopLeftRadius = '15px';
+    playButton.style.borderBottomRightRadius = '15px';
+  }
+  
+  // Toggle class 'playing' untuk menandai status play/pause
+  playButton.classList.toggle('playing');
+}
+
+// Event listener untuk memanggil fungsi saat tombol diklik
+playButton.addEventListener('click', toggleBorderRadius);
