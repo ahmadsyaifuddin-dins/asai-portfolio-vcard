@@ -15,7 +15,7 @@
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     cursor: pointer;
-    transition: border-radius 1s;
+    transition: border-radius 0.7s;
     /* Animasi transisi untuk border-radius */
 }
 
