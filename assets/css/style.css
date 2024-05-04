@@ -552,6 +552,12 @@ main {
   margin-bottom: 15px;
 }
 
+.my-logo img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 
 
 /**
