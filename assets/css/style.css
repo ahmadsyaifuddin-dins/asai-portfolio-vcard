@@ -674,6 +674,14 @@ main {
   }
 }
 
+@media (min-width: 580px) {
+
+  .testimonials-item {
+    min-width: 100%;
+    scroll-snap-align: start;
+  }
+}
+
 .testimonials-avatar-box {
   position: absolute;
   top: 0;
@@ -1511,7 +1519,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 250px;
     margin-bottom: 30px;
   }
 
@@ -1624,18 +1632,20 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 25px;
   }
 
+  /* Tampilan tablet */
   .testimonials-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* Mengatur dua kolom dengan lebar yang sama */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 15px;
-    margin: 0;
+    margin: 0 -15px;
     padding: 25px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     overflow-x: auto;
     scroll-behavior: smooth;
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 25px;
   }
 
   .content-card {
